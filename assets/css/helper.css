@@ -1,0 +1,94 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.end {
+    justify-content: end;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-fix {
+    position: fixed;
+    top: 0;
+}
+
+.pos-st {
+    position: sticky;
+}
+
+.contain {
+    object-fit: contain;
+}
+.cover{
+    object-fit: cover;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--colorPrimary);
+    border-radius: 5px;
+}
+
+.scroll{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    padding: 21px 23px;
+    background-color: #fff;
+    color: var(--colorPrimary);
+
+    & img{
+        width: 12.94px;
+        height: 16.63px;
+    }
+}
+.div-title{
+    font-size:32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--colorText);
+}
+
+.click{
+    position: relative;
+    & a{
+        position: absolute;
+        inset: 0;
+    }
+}
